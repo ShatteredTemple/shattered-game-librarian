@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>ShatteredTemple.GameLibrarian.ImageManagement</AssemblyName>
+    <RootNamespace>ShatteredTemple.GameLibrarian.ImageManagement</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Datafile\Schema\datafile.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>datafile.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+</Project>
